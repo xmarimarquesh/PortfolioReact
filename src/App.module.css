@@ -10,6 +10,7 @@
     background: radial-gradient(circle, rgba(202,63,251,1) 0%, #4a2aff 100%);
     box-shadow: 10px 10px 85px -1px rgba(0,0,0,0.75);
 }
+
 .Menu a{
     margin-right: 5%;
     font-size: 1.3em
@@ -171,17 +172,13 @@ iframe{
     margin: 1%;
 }
 
-.caralhas{
-    background-color: red;
-}
-
 
 @media (width <= 768px) {
     .projeto{
         flex-wrap: wrap;
         padding: 1%;
     }
-
+    
     iframe{
         height: auto;
         width: auto;
@@ -190,24 +187,33 @@ iframe{
     
     .experiencia{
         flex-wrap: wrap;
-        padding: 1%;
+        padding: 10%;
     }
-
+    
     .apresentacao img{
         width: 80%;
     }
-
+    
     .icons img{
         width: auto;
     }
     
     .apresentacao{
         flex-wrap: wrap;
-        padding: 1%;
+        padding: 10%;
         flex-direction: column-reverse;
     }
-
+    
     .texto_sobremim{
+        flex-direction: column;
+    }
+    
+    .contato{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .Menu{
         flex-direction: column;
     }
 }

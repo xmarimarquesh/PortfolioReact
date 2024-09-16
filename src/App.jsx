@@ -5,15 +5,15 @@ function App() {
 
   return (
    
-      <main className={style.caralhas}>
+      <main>
       <div className={style.Menu}>
-        <a href="">Início</a>
-        <a href="">Experiências</a>
-        <a href="">Projetos</a>
-        <a href="">Sobre mim</a>
+        <a href="#apresentacao">Início</a>
+        <a href="#experiencias">Experiências</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#sobremim">Sobre mim</a>
       </div>
         <h1 className={style.titulo}>Seja bem vindo ao meu portfólio Profissional!</h1>
-        <section className={style.apresentacao}>
+        <section className={style.apresentacao} id="apresentacao">
               <div className={style.texto_apresentacao}>
                   <h2>Olá! me chamo Mariana Marques</h2>
                   <h1>Desenvolvedor de Sistemas</h1>
@@ -30,7 +30,7 @@ function App() {
               <img className={style.eu} src="../src/assets/img/eu2.png" alt=""/>
           </section>
 
-          <section className={style.experiencias}>
+          <section className={style.experiencias} id="experiencias">
             <h1>Experiências</h1>
               <div className={style.experiencia}>
                   <img src="https://yt3.googleusercontent.com/nk7VSREl8PCdRZhGcLkggJ5vacaxnTxW5BWbiflQOoMjLcM6Zg4LdZJYPNmQOH0a48Zbtd8L-Q=s176-c-k-c0x00ffffff-no-rj-mo" alt="bosch"/>
@@ -43,7 +43,7 @@ function App() {
               </div>
           </section>
 
-          <section className={style.projetos}>
+          <section className={style.projetos} id="projetos">
             <h1>Projetos</h1>
             <div className={style.projeto}>
                 <div className={style.texto_projeto}>
@@ -63,7 +63,7 @@ function App() {
             </div>
           </section>
 
-          <section className={style.aboutme}>
+          <section className={style.aboutme} id="sobremim">
             <div className={style.sobremim}>
                 <h1>Sobre Mim</h1>
                 <div className={style.texto_sobremim}>
