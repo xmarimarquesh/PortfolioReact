@@ -106,6 +106,8 @@ main h1{
 
 .texto_projeto{
     width: 50%;
+    justify-content: space-between;
+    height: 100%;
     margin: 2%;
 }
 
@@ -169,8 +171,12 @@ iframe{
     margin: 1%;
 }
 
+.caralhas{
+    background-color: red;
+}
 
-@media (max-width: 768px) {
+
+@media (width <= 768px) {
     .projeto{
         flex-wrap: wrap;
         padding: 1%;
@@ -186,11 +192,22 @@ iframe{
         flex-wrap: wrap;
         padding: 1%;
     }
+
+    .apresentacao img{
+        width: 80%;
+    }
+
+    .icons img{
+        width: auto;
+    }
     
     .apresentacao{
         flex-wrap: wrap;
         padding: 1%;
         flex-direction: column-reverse;
-        width: 100%;
+    }
+
+    .texto_sobremim{
+        flex-direction: column;
     }
 }

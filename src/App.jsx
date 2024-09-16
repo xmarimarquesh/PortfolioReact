@@ -4,14 +4,14 @@ import style from './App.module.css'
 function App() {
 
   return (
-    <>
+   
+      <main className={style.caralhas}>
       <div className={style.Menu}>
         <a href="">Início</a>
         <a href="">Experiências</a>
         <a href="">Projetos</a>
         <a href="">Sobre mim</a>
       </div>
-      <main>
         <h1 className={style.titulo}>Seja bem vindo ao meu portfólio Profissional!</h1>
         <section className={style.apresentacao}>
               <div className={style.texto_apresentacao}>
@@ -91,7 +91,7 @@ function App() {
             </div>
           </section>
         </main>
-    </>
+   
   )
 }
 
