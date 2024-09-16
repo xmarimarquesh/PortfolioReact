@@ -1,0 +1,16 @@
+.Menu{
+    position: fixed;
+    width: 98%;
+    padding: 1%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background: rgb(202,63,251);
+    background: radial-gradient(circle, rgba(202,63,251,1) 0%, #4a2aff 100%);
+    box-shadow: 10px 10px 85px -1px rgba(0,0,0,0.75);
+}
+.Menu a{
+    margin-right: 5%;
+    font-size: 1.3em
+}
