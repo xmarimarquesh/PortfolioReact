@@ -11,7 +11,8 @@ function App() {
         <a href="">Projetos</a>
         <a href="">Contato</a>
       </div>
-      <div className={style.Main}>
+      <main>
+        <h1>Seja bem vindo ao meu portfólio Profissional!</h1>
         <section className={style.apresentacao}>
               <div className={style.texto_apresentacao}>
                   <h2>Olá! me chamo Mariana Marques</h2>
@@ -28,7 +29,20 @@ function App() {
               </div>
               <img className={style.eu} src="../src/assets/img/eu2.png" alt=""/>
           </section>
-        </div>
+
+        <section className={style.experiencias}>
+        <h1>Experiências</h1>
+            <div className={style.experiencia}>
+                <img src="https://yt3.googleusercontent.com/nk7VSREl8PCdRZhGcLkggJ5vacaxnTxW5BWbiflQOoMjLcM6Zg4LdZJYPNmQOH0a48Zbtd8L-Q=s176-c-k-c0x00ffffff-no-rj-mo" alt="bosch"/>
+                <div>
+                    <h2>Jovem Aprendiz em</h2>
+                    <h1>Soluções Digitais</h1>
+                    <h3>Robert Bosch</h3>
+                    <h4>05/02/2024 - 05/07/2025</h4>
+                </div>
+            </div>
+        </section>
+        </main>
     </>
   )
 }

@@ -15,25 +15,27 @@
     font-size: 1.3em
 }
 
-.Main{
+main{
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+main h1{
+    margin-top: 10%;
+}
+
 .apresentacao{
-    margin: 10% 0% 9% 7%;
+    margin: 6% 0% 9% 7%;
     display: flex;
 }
 
 .texto_apresentacao{
     width: 55%;
-    margin-top: 8%;
 }
 
 .texto_apresentacao h1{
-    margin-bottom: 2%;
     color: #8400ff ;
 }
 
@@ -48,4 +50,31 @@
     width: 35%;
     height: 35%;
     padding: 0.5%;
+}
+
+.experiencias{
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.experiencia img{
+    width: 250px;
+    height: auto;
+    margin: 3%;
+    border-radius: 100%;
+}
+
+.experiencia{
+    padding: 2%;
+    margin-top: 12%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: #8400ff ;
+    border-radius: 20px;
 }
