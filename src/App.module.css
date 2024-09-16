@@ -14,3 +14,38 @@
     margin-right: 5%;
     font-size: 1.3em
 }
+
+.Main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao{
+    margin: 10% 0% 9% 7%;
+    display: flex;
+}
+
+.texto_apresentacao{
+    width: 55%;
+    margin-top: 8%;
+}
+
+.texto_apresentacao h1{
+    margin-bottom: 2%;
+    color: #8400ff ;
+}
+
+.icons img{
+    width: 24px;
+    height: auto;
+    margin: 5% 2% 3% 0;
+    margin-top: 5%;
+}
+
+.eu{
+    width: 35%;
+    height: 35%;
+    padding: 0.5%;
+}
