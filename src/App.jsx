@@ -9,7 +9,7 @@ function App() {
         <a href="">Início</a>
         <a href="">Experiências</a>
         <a href="">Projetos</a>
-        <a href="">Contato</a>
+        <a href="">Sobre mim</a>
       </div>
       <main>
         <h1 className={style.titulo}>Seja bem vindo ao meu portfólio Profissional!</h1>
@@ -59,6 +59,34 @@ function App() {
                     <h2>TERMO</h2>
                     <h3>Tecnologias: Linguagem C, VsCode</h3>
                     <p>O termo é um jogo de advinhação de palavras, tendo dois modos, você deve acertar a palavra com base nas cores verde, vermelho e amarelo.</p>
+                </div>
+            </div>
+          </section>
+
+          <section className={style.aboutme}>
+            <div className={style.sobremim}>
+                <h1>Sobre Mim</h1>
+                <div className={style.texto_sobremim}>
+                    <img src="../src/assets/img/eu.png" alt="eu"/>
+                    <h3>Sou Mariana, uma desenvolvedora de sistemas apaixonada por transformar ideias em realidade digital. Desde cedo, a tecnologia me fascinou, e hoje dedico meu tempo a criar soluções inovadoras que fazem a diferença. Com uma experiência em algumas tecnologias e linguagens de programação, adoro enfrentar novos desafios que me permitam crescer e aprender. Quando não estou codificando, você pode me encontrar explorando novas receitas ou novos projetos, sempre em busca de novas inspirações. Estou animada para colaborar em projetos que tenham um impacto positivo e significativo!</h3>
+                </div>
+            </div>
+            <h1>Entre em contato</h1>
+            <div className={style.contato}>
+                <div className={style.item_contato}>
+                    <img src="../src/assets/img/branco/facebook.png" alt="facebook"/><h2>Mariana Marques</h2>
+                </div>
+                <div className={style.item_contato}>
+                    <img src="../src/assets/img/branco/instagram.png" alt="instagram"/><h2>@xmarimarques</h2>
+                </div>
+                <div className={style.item_contato}>
+                    <img src="../src/assets/img/branco/whatsapp.png" alt="whatsapp"/><h2>(41) 9 9750-4019</h2>
+                </div>
+                <div className={style.item_contato}>
+                    <img src="../src/assets/img/branco/github.png" alt="github"/><h2>xmarimarques</h2>
+                </div>
+                <div className={style.item_contato}>
+                    <img src="../src/assets/img/branco/linkedin.png" alt="linkedin"/><h2>Mariana Hipolito</h2>
                 </div>
             </div>
           </section>
