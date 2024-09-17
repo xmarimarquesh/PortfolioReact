@@ -91,34 +91,6 @@ function App() {
   }
 
   return (
-<<<<<<< HEAD
-   
-      <main>
-      <div className={style.Menu}>
-        <a href="#apresentacao">Início</a>
-        <a href="#experiencias">Experiências</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#sobremim">Sobre mim</a>
-      </div>
-        <h1 className={style.titulo}>Seja bem vindo ao meu portfólio Profissional!</h1>
-        <section className={style.apresentacao} id="apresentacao">
-              <div className={style.texto_apresentacao}>
-                  <h2>Olá! me chamo Mariana Marques</h2>
-                  <h1>Desenvolvedor de Sistemas</h1>
-                  <h3>Sou apaixonada por transformar ideias em soluções digitais inovadoras. Com experiência em tecnologias como VsCode, Git e MySql, crio aplicações eficientes que fazem a diferença. Meu compromisso é com a excelência e a inovação, sempre buscando desafios que me permitam crescer profissionalmente.</h3>
-                  <div className={style.icons}>
-                      <img src="../src/assets/img/facebook.png" alt="facebook"/>
-                      <img src="../src/assets/img/instagram.png" alt="instagram"/>
-                      <img src="../src/assets/img/whatsapp.png" alt="whatsapp"/>
-                      <img src="../src/assets/img/github.png" alt="github"/>
-                      <img src="../src/assets/img/linkedin.png" alt="linkedin"/>
-                  </div>
-                  <hr/>
-              </div>
-              <img className={style.eu} src="../src/assets/img/eu2.png" alt=""/>
-          </section>
-
-=======
     <div className={darkMode ? style.dark : style.light}>
       <script src="script.js"></script>
       <main id="apresentacao">
@@ -173,7 +145,6 @@ function App() {
           </section>
 
 
->>>>>>> extras
           <section className={style.experiencias} id="experiencias">
             <h1>Experiências</h1>
               <div className={style.experiencia}>
@@ -220,44 +191,11 @@ function App() {
             </div>
           </section>
 
-<<<<<<< HEAD
-          <section className={style.aboutme} id="sobremim">
-            <div className={style.sobremim}>
-                <h1>Sobre Mim</h1>
-                <div className={style.texto_sobremim}>
-                    <img src="../src/assets/img/eu.png" alt="eu"/>
-                    <h3>Sou Mariana, uma desenvolvedora de sistemas apaixonada por transformar ideias em realidade digital. Desde cedo, a tecnologia me fascinou, e hoje dedico meu tempo a criar soluções inovadoras que fazem a diferença. Com uma experiência em algumas tecnologias e linguagens de programação, adoro enfrentar novos desafios que me permitam crescer e aprender. Quando não estou codificando, você pode me encontrar explorando novas receitas ou novos projetos, sempre em busca de novas inspirações. Estou animada para colaborar em projetos que tenham um impacto positivo e significativo!</h3>
-                </div>
-            </div>
-            <h1>Entre em contato</h1>
-            <div className={style.contato}>
-                <div className={style.item_contato}>
-                    <img src="../src/assets/img/branco/facebook.png" alt="facebook"/><h2>Mariana Marques</h2>
-                </div>
-                <div className={style.item_contato}>
-                    <img src="../src/assets/img/branco/instagram.png" alt="instagram"/><h2>@xmarimarques</h2>
-                </div>
-                <div className={style.item_contato}>
-                    <img src="../src/assets/img/branco/whatsapp.png" alt="whatsapp"/><h2>(41) 9 9750-4019</h2>
-                </div>
-                <div className={style.item_contato}>
-                    <img src="../src/assets/img/branco/github.png" alt="github"/><h2>xmarimarques</h2>
-                </div>
-                <div className={style.item_contato}>
-                    <img src="../src/assets/img/branco/linkedin.png" alt="linkedin"/><h2>Mariana Hipolito</h2>
-                </div>
-            </div>
-          </section>
-        </main>
-   
-  )
-=======
          
         <footer>Mariana Marques Hipolito - 16/09/2024</footer>
       </main>
     </div>
   );
->>>>>>> extras
 }
 
 export default App;

@@ -241,8 +241,6 @@ iframe{
     margin: 1%;
 }
 
-<<<<<<< HEAD
-=======
 footer{
     width: 98%;
     padding: 1%;
@@ -274,7 +272,6 @@ footer{
     
 }
 
->>>>>>> extras
 
 @media (width <= 768px) {
     .projeto{
@@ -287,17 +284,6 @@ footer{
         width: auto;
         border-radius: 20px;
     }
-<<<<<<< HEAD
-    
-    .experiencia{
-        flex-wrap: wrap;
-        padding: 10%;
-    }
-    
-    .apresentacao img{
-        width: 80%;
-    }
-=======
 
     .texto_apresentacao{
         width: 80%;
@@ -328,7 +314,6 @@ footer{
     .apresentacao img{
         width: 80%;
     }
->>>>>>> extras
     
     .icons img{
         width: auto;
@@ -343,13 +328,10 @@ footer{
     .texto_sobremim{
         flex-direction: column;
     }
-<<<<<<< HEAD
-=======
 
     .titulo{
         margin-top: 50%;
     }
->>>>>>> extras
     
     .contato{
         flex-direction: column;
@@ -358,8 +340,6 @@ footer{
 
     .Menu{
         flex-direction: column;
-<<<<<<< HEAD
-=======
         align-items: start;
     }
 
@@ -370,6 +350,5 @@ footer{
     .texto_sobremim img{
         width: 80%;
         margin-bottom: 5%;
->>>>>>> extras
     }
 }
