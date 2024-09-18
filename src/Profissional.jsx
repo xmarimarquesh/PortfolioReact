@@ -182,7 +182,7 @@ function Profissional() {
                     <a target='_blank' href="https://github.com/xmarimarquesh/TERMO.git">Acesse meu GitHub!</a>
                 </div>
             </div>
-            <div className={style.projeto}>
+            <div className={style.projeto} >
                 <div className={style.texto_projeto}>
                     <h2>PlotPit Library</h2>
                     <h3>Tecnologias: VsCode, SQLServer, JavaScript, HTML, NodeJS, EJS</h3>
