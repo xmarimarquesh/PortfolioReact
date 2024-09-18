@@ -10,7 +10,18 @@
 
 main {
   background-color: var(--background-color);
-  color: var(--text-color);
+}
+
+footer{
+  top: 90vh;
+  color: white;
+  width: 98%;
+    padding: 1%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 85px -1px rgba(0,0,0,0.75);
 }
 
 :root {
